@@ -3,7 +3,7 @@ import type { Request, Response, NextFunction } from "express";
 import balanceRoutes from "./routes/balance";
 
 const app = express();
-const PORT = 8080;
+const PORT = 975781;
 
 app.use("/balance", balanceRoutes);
 
